@@ -1,6 +1,13 @@
 # Tanjina-demo-transaction-api-jmeter
 # Project Summery
 This project has automate load testing from JMeter
+# Scenerio of this Project:
+1. Admin creates an agent and a customer
+2. Deposit 2000 tk to agent from system account (fromAc: SYSTEM)
+3. Deposit 1000 tk to customer from agent account
+4. Check balance from customer account
+5. Withdraw 500 tk from customer account
+6. Payment 200 tk from customer account (Merchant account: 01686606905)
 
 # Technology Used:
 1. Jmeter
